@@ -1,0 +1,229 @@
+:root {
+    --mainfont: 'Archivo', sans-serif;
+    --subfont: 'Red Hat Display', sans-serif;
+    --parafont: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.btn {
+    padding: 20px 30px;
+    background-image: linear-gradient( tomato, red);
+    color: white;
+    font-size: 16px;
+    font-family: var(--subfont);
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 40px;
+    transition: all linear .3s;
+}
+
+.btn:hover {
+    background-image:linear-gradient(orange, yellow);
+    color: black;
+}
+
+span {
+    color: orange;
+}
+
+.para {
+    font-size: 16px;
+    font-family: var(--parafont);
+    font-weight: 400;
+    line-height: normal;
+    color: grey;
+    line-height: 25px;
+    padding-right: 116px;
+}
+
+/* common css ends */
+
+#banner {
+    background-image: url(../shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 50px;
+}
+
+#banner .benner-info {
+    width: 50%;
+    margin-left: 80px;
+}
+
+#banner .benner-info h1 {
+    font-size: 45px;
+    font-family: var(--mainfont);
+    font-weight: 700;
+    color: black;
+    line-height: 60px;
+    margin-top: 150px;
+    margin-bottom: 32px;
+}
+
+#banner .benner-img {
+    width: 50%;
+}
+
+#banner .benner-img img{
+    width: 100%;
+}
+
+/* ==================
+    banner css ends
+  ================== */
+#about {
+    background-image: url(../shapes/7.png);
+    background-repeat: none;
+    background-position: right;
+    margin-bottom: 50px;
+    padding-top: 50px;
+}
+
+#about .about-img img {
+    width: 60%;
+}
+
+#about .about-info h2 {
+    font-size: 38px;
+    font-family: var(--mainfont);
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+
+/* ==================
+    about css ends
+  ================== */
+#recipies {
+    background-image: url(../shapes/Frame\ 57.jpg);
+    background-repeat: no-repeat;
+    background-position: top-left;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+
+#recipies h2 {
+    font-size: 38px;
+    font-family: var(--mainfont);
+    font-weight: 700;
+    color: black;
+    text-transform: capitalize;
+    margin-top: 60px;
+    margin-bottom: 35px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#recipies .p1 {
+    padding: 0 300px;
+    text-align: center;
+}
+
+#recipies .recipies-container {
+    margin-top: 50px;
+}
+
+#recipies .container .recipie-1 {
+    width: 40%;
+    margin-left: 70px;
+    box-shadow: 0px 0px 11px -6px;
+    border-radius: 5%;
+}
+
+#recipies .container .recipie-1 img {
+    width: 80%;
+    margin-top: 25px;
+}
+
+#recipies .container .recipie-1 h3 {
+    font-size: 28px;
+    font-family: var(--subfont);
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+#recipies .container .recipie-1 .p2 {
+    text-align: center;
+    padding-right: 0;
+    margin: 20px 10px;
+}
+
+/* ==================
+    recipies css ends
+  ================== */
+  #follower {
+    background-image: url(../shapes/Frame\ 56.jpg);
+    background-repeat: no-repeat;
+    background-position: top-left;
+  }
+
+  #follower .txt-center {
+    box-shadow: 0px 0px 11px -6px;
+  }
+
+#follower .txt-center .numbers {
+   margin-left: 180px;
+}
+
+#follower .txt-center .numbers h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: var(--mainfont);
+    font-weight: 800;
+    padding-top: 40px;
+}
+
+#follower .txt-center .numbers .p3 {
+    padding-right: 0;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+/* ==================
+    follower css ends
+  ================== */
+#footer {
+    text-align: center;
+    background-color: black;
+    margin-top: 70px;
+}
+
+#footer h2 {
+    font-size: 25px;
+    font-family: var(--subfont);
+    font-weight: 700;
+    color: gray;
+    text-transform: capitalize;
+    padding: 40px 0;
+}
+
+#footer p {
+    font-size: 16px;
+    font-family: var(--parafont);
+    font-weight: 400;
+    color: lightgray;
+    padding-bottom: 80px;
+}
+/* ==================
+    footer css ends
+  ================== */
